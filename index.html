@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/basic.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/prefixfree.jquery.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body> 
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top opacity-75">
+            <div class="container-xxl">
+              <a class="navbar-brand" href="#">
+                <img src="img/p_heart.svg" alt="heart icon" width="30">
+                KIM MINJU</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Me</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Project
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Responsive</a></li>
+                      <li><a class="dropdown-item" href="#">UX/UI</a></li>
+                      <li><a class="dropdown-item" href="#">One Scrollpage</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-secondary" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+        <div class="text-center py-5">
+          <h2>BOOTSTRAP을 이용한<br class="d-block d-md-none"> 페이지입니다.</h2>
+          <h4 class="d-none d-md-block mb-5 mb-md-0">근데 이제 PR을 곁들인</h4>
+        </div>
+
+    </header>
+
+    <!-- 1st SECTIOIN START-->
+    <section class="bg-secondary bg-opacity-10 py-3 py-md-5">
+        <div class="container-md" >
+          <div class="row">
+            <div class="col-md-5 text-end mt-5">
+              <h2>Who is me? <br><strong>KIM MIN JU</strong></h2>
+              <p class="mt-4 my-5"><strong>BIRTH</strong> 93.11.03<br><strong>메일</strong> mingude@gamil.com<br><strong>최종학력 </strong>숭실대학교 정보통신전자공학부 수료</p>
+            </div>
+            <div class="col-md-7 text-center">
+              <img src="img/me5.jpeg" alt="my Photo" class="size">
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- 1st SECTIOIN END-->
+
+    <!-- 2nd SECTIOIN START-->
+    <section class="py-3 py-md-5">
+      <div class="container-md">
+        <div class="row">
+          <div class="col-md-7">
+            <img src="img/me4.jpeg" alt="my Photo">
+          </div>
+          <div class="col-md-5 mt-5">
+            <h2 class="mb-5">WHAT DID I DO? <br><strong> RECENTLY, I DO..</strong></h2>
+            <p><strong>2021.04 ~ 2021.09</strong> 그린 컴퓨터 아카데미 (디지털 디자인) UIUX 반응형 웹디자인 & 웹 퍼블리셔(디자인 & 코딩) 양성과정 4 수강</p>
+            <p><strong>2020년 06월 ~ 2021년 01월</strong> 스포츠다(sns관리/ 웹페이지 디자인 보조) 근무</p>
+            <p><strong>2019년 12월 ~ 2020년 06월</strong> 호주 워킹홀리데이 </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 2nd SECTIOIN END-->
+
+    <!-- 3rd SECTIOIN START-->
+    <section class="responsive bg-secondary bg-opacity-10 py-md-5">
+      <div class="container-md" >
+        <div class="row">
+          <div class="col-md-5 mt-5 text-end">
+            <h2 class="mb-5">WHAT's MY MOTTO? <br><strong>JUST DO IT!</strong></h2>
+            <p><strong>Just, do it. There's a chance, always.</strong> 
+            <p>커피 공부를하다가 문득 연이닿은 카페대표님, <br>
+              바리스타로 근무중 문득 떠나게된 워킹홀리데이, <br> 코로나로 급하게 귀국하게 된 상황에서 연락된 창업,<br>
+              창업에서 관심을 갖게된 웹퍼블리셔까지.<br>뭐든 열심히 하다보니 톱니바퀴 맞물리듯 다음 기회가 찾아왔습니다.<br> 정말 많은 인연이 있었고, 그건 전무 무엇을 '시작' 했기 때문이란 것을 깨달았습니다.<br> <strong>우선 시작해! 하다보면 기회는 언제나 있어</strong> </p>
+          </div>
+          <div class="col-md-7 text-center size">
+            <img src="img/me1.jpeg" alt="my Photo" class="size">
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- 3rd SECTIOIN END-->
+
+  <!-- 4th SECTIOIN START-->
+  <section class="py-5 d-none d-md-block">
+    <div class="container-xxl">
+      <div class="row justify-content-center">
+        <div class="col col-xl-3">
+          <img src="img/me6.jpeg" alt="my Photo" class="float-start">
+          <h2 class="float-start mt-4"> <strong>동글동글한 성격</strong><br>(및 얼굴의)보유자</h2>
+          <p class="float-end mt-3" >폭넓은 직종의 아르바이트 및 근무경험으로 사회성이 넘쳐흐르며, 밝은 성격을 바탕으로 사람들과 둥글둥글 잘 어울리는 성격을 갖고있습니다. </p>
+        </div>
+        <div class="col col-xl-3">
+          <img src="img/me7.jpeg" alt="my Photo" class="float-start">
+          <h2 class="float-start mt-4"><strong>맡은바 책임은</strong><br>확실히 </h2>
+          <p class="float-end mt-3" >근무했던 파트타임 중 제일 악랄했던 스케쥴을 꼽자면, 설시즌에 잠깐 일했던 떡 공장이었습니다. 새벽 3시에 출근해서 오후 7시까지 근무하고 극한의 날엔 자정 출근 20시 퇴근 자정 출근의 연속이었는데, 근 2주일간 지각은 물론 쉬는시간 오버한적 단 한번도 없이 완벽한 근태를 선보였습니다.</p>
+        </div>
+        <div class="col col-xl-3">
+          <img src="img/me8.jpeg" alt="my Photo" class="float-start">
+          <h2 class="float-start mt-4"><strong>웹 퍼블리싱</strong><br>하고싶습니다!</h2>
+          <p class="float-end mt-3" >어떤 UI디자인이던 본래 목적에 맞게 깔끔하게 구상하여 다른 팀원들과의 의사소통을 원활하게 할 수 있는 퍼블리셔가 되겠습니다. 또한, 계속해서 발전하는 IT환경에 최적화 된 웹디자이너를 목표로 삼아 회사와 함께 역량을 늘려가는 인재가 되겠습니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 4th SECTIOIN END-->
+
+  <!-- 5th SECTIOIN START-->
+  <section class="outro bg-dark">
+    <div class="container-fluid">
+      <div class="text-center">
+        <img src="img/imac.png" alt="" class="imac">
+      </div>
+      <div class="outro_bottom row">
+        <div class="col-3 d-none d-md-block">
+          <img src="img/keyboard.png" alt="" class="keyboard">
+        </div>
+        <div class="col-md-6 text-center">
+          <h2 class="text-white">제 포트폴리오 사이트를 보러와주셔서 대단히 감사합니다.</h2>
+          <p class="text-secondary">감사합니다!</p>
+          <a href="#" class="btn bg-warning bg-gradient rounded-pill mt-3">TANKYOU</a>
+        </div>
+        <div class="col-3 d-none d-md-block">
+          <img src="img/mouse.png" alt="" class="mouse">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 5th SECTIOIN END-->
+
+
+
+    <footer class="bg-black text-light">
+      <div class="container-lg text-center py-3">
+        <p>이 사이트는 부트스트랩으로 만들어진 사이트 입니다.</p>
+      </div>
+    </footer>
+
+
+</body>
+</html>
